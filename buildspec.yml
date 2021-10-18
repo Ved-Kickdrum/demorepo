@@ -12,8 +12,6 @@ phases:
       - aws --version
       - echo node environment
       - echo $NODE_ENV
-      - echo DB Username
-      - echo $DB_USERNAME
   build:
     commands:
       - echo Build started on `date`
