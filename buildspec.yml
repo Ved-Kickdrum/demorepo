@@ -22,7 +22,3 @@ phases:
     commands:
       - echo Build completed on `date`
       - aws s3 sync build/ s3://microservicedemo1 --acl public-read
-artifacts:
-  files:
-    - 'build/*'
-  name: demoProjectArtifact
