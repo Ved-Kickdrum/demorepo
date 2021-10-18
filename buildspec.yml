@@ -14,8 +14,6 @@ phases:
       - echo $NODE_ENV
       - echo DB Username
       - echo $DB_USERNAME
-      - echo DB Password
-      - echo $DB_PASSWORD
   build:
     commands:
       - echo Build started on `date`
