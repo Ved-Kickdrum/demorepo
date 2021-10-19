@@ -1,0 +1,4 @@
+com\ajay\springcloud\CouponserviceApplication.class
+com\ajay\springcloud\repos\CouponRepo.class
+com\ajay\springcloud\controller\CouponRestController.class
+com\ajay\springcloud\model\Coupon.class
