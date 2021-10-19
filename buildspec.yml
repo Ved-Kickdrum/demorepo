@@ -1,10 +1,5 @@
 version: 0.2
 phases:
-  install:
-    runtime-versions:
-      java: 14
-    commands:
-      - echo Getting Started
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
