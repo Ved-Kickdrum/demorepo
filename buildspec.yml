@@ -12,6 +12,7 @@ phases:
       - aws --version
       - echo node environment
       - echo $NODE_ENV
+      - echo Hi all
   build:
     commands:
       - echo Build started on `date`
