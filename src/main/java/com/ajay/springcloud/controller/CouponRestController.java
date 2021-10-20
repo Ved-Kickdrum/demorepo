@@ -14,18 +14,20 @@ import com.ajay.springcloud.repos.CouponRepo;
 @RequestMapping("/couponapi")
 public class CouponRestController {
 	
-	@Autowired
-	CouponRepo repo;
+	// @Autowired
+	// CouponRepo repo;
 	
-	@RequestMapping(value = "/coupons", method = RequestMethod.POST)
-	public Coupon create(@RequestBody Coupon coupon) {
-		return repo.save(coupon);
+	// @RequestMapping(value = "/coupons", method = RequestMethod.POST)
+	// public Coupon create(@RequestBody Coupon coupon) {
+	// 	return repo.save(coupon);
 
-	}
+	// }
 
 	@RequestMapping(value = "/coupons/{code}", method = RequestMethod.GET)
-	public Coupon getCoupon(@PathVariable("code") String code) {
-		return repo.findByCode(code);
+	public String getCoupon(@PathVariable("code") String code) {
+		return code;
 
 	}
+
+	
 }
