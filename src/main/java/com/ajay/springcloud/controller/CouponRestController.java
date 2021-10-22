@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-// @RequestMapping("/couponapi")
+@RequestMapping("/")
 public class CouponRestController {
 	
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
