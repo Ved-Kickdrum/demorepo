@@ -7,12 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/couponapi")
+// @RequestMapping("/couponapi")
 public class CouponRestController {
 	
-@RequestMapping(value = "/test", method = RequestMethod.GET)
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String getCoupon() {
 		return "Welcome to kickdrum";
+	}
+
+	@RequestMapping(value = "/health", method = RequestMethod.GET)
+	public String getCoupon() {
+		return "your health";
 	}
 	
 }
