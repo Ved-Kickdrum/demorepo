@@ -16,7 +16,7 @@ public class CouponRestController {
 	}
 
 	@RequestMapping(value = "/health", method = RequestMethod.GET)
-	public String getCoupon() {
+	public String getHealth() {
 		return "your health";
 	}
 	
