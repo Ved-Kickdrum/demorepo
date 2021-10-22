@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/couponapi")
 public class CouponRestController {
 	
-@RequestMapping(value = "/coupons/{code}", method = RequestMethod.GET)
-	public String getCoupon(@PathVariable("code") String code) {
+@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public String getCoupon() {
 		return "Welcome to kickdrum";
-
 	}
+	
 }
